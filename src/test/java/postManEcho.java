@@ -57,7 +57,7 @@ class postmanEcho {
                 .when()
                 .post("/post")
                 .then()
-                .statusCode(400)
+                .statusCode(200)
                 .body("data", equalTo("handWave"))
 
         ;
